@@ -1,3 +1,8 @@
+
+# frustum-pointnet-original
+我们把用mrcnn检测出的结果放在了 rgb_detection_test.txt下了，同时包含了 tensorflow的日志文件（在 log_v1下），对frustum-pointnet的 pointnet进行了注释 对兼容性进行修改，现在可以运行在 python3.6 + tensorflow1.14环境下
+下面是原作者的readme
+
 ## Frustum PointNets for 3D Object Detection from RGB-D Data
 Created by <a href="http://charlesrqi.com" target="_blank">Charles R. Qi</a>, <a href="http://www.cs.unc.edu/~wliu/" target="_black">Wei Liu</a>, <a href="http://www.cs.cornell.edu/~chenxiawu/" target="_blank">Chenxia Wu</a>, <a href="http://cseweb.ucsd.edu/~haosu/" target="_blank">Hao Su</a> and <a href="http://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas J. Guibas</a> from <a href="http://www.stanford.edu" target="_blank">Stanford University</a> and <a href="http://nuro.ai" target="_blank">Nuro Inc.</a>
 
@@ -80,3 +85,4 @@ Our code is released under the Apache 2.0 license (see LICENSE file for details)
 
 - Add a demo script to run inference of Frustum PointNets based on raw input data.
 - Add related scripts for SUNRGBD dataset
+
